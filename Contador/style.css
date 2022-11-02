@@ -1,0 +1,44 @@
+body {
+  background-color: #F8FFDB;
+  
+}
+
+.todo{
+  display: flex;     
+  align-items: center;
+  justify-content: center;
+}
+ 
+.caja {
+  background-color: #B3FFAE;
+  width: 20rem;
+  height: 20rem;
+  text-align: center;
+  box-shadow: 20px black;
+  margin-top: 10rem;
+}
+
+.css-button-rounded--sky {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid #FF6464;
+  background: #FF6464;
+}
+
+.css-button-rounded--sky:hover {
+  background: #fff;
+  color: #FF6464
+}
+
+#contador {
+  font-size: 10rem;
+}
